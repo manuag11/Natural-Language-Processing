@@ -1,0 +1,20 @@
+universe = vanilla
+environment = CLASSPATH=/u/manuag/hw3/stanford-parser-full-2015-12-09/stanford-parser.jar:/u/manuag/hw3/stanford-parser-full-2015-12-09/slf4j-api.jar:/u/manuag/hw3/stanford-parser-full-2015-12-09
+
+Initialdir = /u/manuag
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 3"
+
+Log = /u/manuag/experiment.log
+
+Notification = complete
+Notify_user = manuag@cs.utexas.edu
+
+Arguments = StatsParsing6 13000 -train /u/manuag/hw3/stanford-parser-full-2015-12-09/mrg/brown 02-22 -selftrain /u/manuag/hw3/stanford-parser-full-2015-12-09/mrg/wsj 1-8 -test /u/manuag/hw3/stanford-parser-full-2015-12-09/mrg/brown 1-8
+
+Output = /u/manuag/hw3/stanford-parser-full-2015-12-09/trace_files/experiment-train-13000-brown-test-brown.txt
+Error  = /u/manuag/hw3/stanford-parser-full-2015-12-09/trace_files/experiment-train-13000-brown-test-brown1.txt
+Queue 1
