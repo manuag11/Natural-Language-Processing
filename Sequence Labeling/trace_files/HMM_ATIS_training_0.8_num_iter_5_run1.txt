@@ -1,0 +1,174 @@
+Exception in thread "main" java.io.FileNotFoundException: -iterations (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at cc.mallet.fst.HMMSimpleTagger.main(HMMSimpleTagger.java:453)
+Number of features in training data: 412
+Number of predicates: 412
+Labels: O VB DT NNS IN NNP TO WDT VBP VBZ NN PRP VBG VBN CD MD RB CC JJ WRB RP PDT WP EX UH POS JJS VBD RBS SYM RBR JJR NNPS
+Preparing O
+Preparing VB
+Preparing DT
+Preparing NNS
+Preparing IN
+Preparing NNP
+Preparing TO
+Preparing WDT
+Preparing VBP
+Preparing VBZ
+Preparing NN
+Preparing PRP
+Preparing VBG
+Preparing VBN
+Preparing CD
+Preparing MD
+Preparing RB
+Preparing CC
+Preparing JJ
+Preparing WRB
+Preparing RP
+Preparing PDT
+Preparing WP
+Preparing EX
+Preparing UH
+Preparing POS
+Preparing JJS
+Preparing VBD
+Preparing RBS
+Preparing SYM
+Preparing RBR
+Preparing JJR
+Preparing NNPS
+Training on 462 instances
+Testing on 115 instances
+getValue() (observed log-likelihood) = -33282.80559512357
+getValue() (log-likelihood) = -33282.80559512357
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=1 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8953388618816128
+OOV accuracy=undefined
+Testing accuracy=0.8656542056074766
+OOV accuracy=0.25
+Trainer by likelihood done
+
+Number of features in training data: 412
+Number of predicates: 412
+Labels: O VB DT NNS IN NNP TO WDT VBP VBZ NN PRP VBG VBN CD MD RB CC JJ WRB RP PDT WP EX UH POS JJS VBD RBS SYM RBR JJR NNPS
+Preparing O
+Preparing VB
+Preparing DT
+Preparing NNS
+Preparing IN
+Preparing NNP
+Preparing TO
+Preparing WDT
+Preparing VBP
+Preparing VBZ
+Preparing NN
+Preparing PRP
+Preparing VBG
+Preparing VBN
+Preparing CD
+Preparing MD
+Preparing RB
+Preparing CC
+Preparing JJ
+Preparing WRB
+Preparing RP
+Preparing PDT
+Preparing WP
+Preparing EX
+Preparing UH
+Preparing POS
+Preparing JJS
+Preparing VBD
+Preparing RBS
+Preparing SYM
+Preparing RBR
+Preparing JJR
+Preparing NNPS
+Training on 462 instances
+Testing on 115 instances
+getValue() (observed log-likelihood) = -33282.80559512357
+getValue() (log-likelihood) = -33282.80559512357
+HMM finished one iteration of maximizer, i=0
+getValue() (observed log-likelihood) = -17542.17610364077
+getValue() (log-likelihood) = -17542.17610364077
+HMM finished one iteration of maximizer, i=1
+getValue() (observed log-likelihood) = -17545.585914980715
+getValue() (log-likelihood) = -17545.585914980715
+HMM finished one iteration of maximizer, i=2
+getValue() (observed log-likelihood) = -17547.64810548649
+getValue() (log-likelihood) = -17547.64810548649
+HMM finished one iteration of maximizer, i=3
+getValue() (observed log-likelihood) = -17548.95820798148
+getValue() (log-likelihood) = -17548.95820798148
+HMM finished one iteration of maximizer, i=4
+Evaluator iteration=5 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.892765227337718
+OOV accuracy=undefined
+Testing accuracy=0.8656542056074766
+OOV accuracy=0.2916666666666667
+Trainer by likelihood done
+
+Number of features in training data: 412
+Number of predicates: 412
+Labels: O VB DT NNS IN NNP TO WDT VBP VBZ NN PRP VBG VBN CD MD RB CC JJ WRB RP PDT WP EX UH POS JJS VBD RBS SYM RBR JJR NNPS
+Preparing O
+Preparing VB
+Preparing DT
+Preparing NNS
+Preparing IN
+Preparing NNP
+Preparing TO
+Preparing WDT
+Preparing VBP
+Preparing VBZ
+Preparing NN
+Preparing PRP
+Preparing VBG
+Preparing VBN
+Preparing CD
+Preparing MD
+Preparing RB
+Preparing CC
+Preparing JJ
+Preparing WRB
+Preparing RP
+Preparing PDT
+Preparing WP
+Preparing EX
+Preparing UH
+Preparing POS
+Preparing JJS
+Preparing VBD
+Preparing RBS
+Preparing SYM
+Preparing RBR
+Preparing JJR
+Preparing NNPS
+Training on 462 instances
+Testing on 115 instances
+getValue() (observed log-likelihood) = -33282.80559512357
+getValue() (log-likelihood) = -33282.80559512357
+HMM finished one iteration of maximizer, i=0
+getValue() (observed log-likelihood) = -17542.17610364077
+getValue() (log-likelihood) = -17542.17610364077
+HMM finished one iteration of maximizer, i=1
+getValue() (observed log-likelihood) = -17545.585914980715
+getValue() (log-likelihood) = -17545.585914980715
+HMM finished one iteration of maximizer, i=2
+getValue() (observed log-likelihood) = -17547.64810548649
+getValue() (log-likelihood) = -17547.64810548649
+HMM finished one iteration of maximizer, i=3
+getValue() (observed log-likelihood) = -17548.95820798148
+getValue() (log-likelihood) = -17548.95820798148
+HMM finished one iteration of maximizer, i=4
+Evaluator iteration=5 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.892765227337718
+OOV accuracy=undefined
+Testing accuracy=0.8656542056074766
+OOV accuracy=0.2916666666666667
+Trainer by likelihood done
+
